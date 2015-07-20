@@ -1,0 +1,29 @@
+// Button
+
+.button {
+  font-family: $bold-font;
+  display: inline-block;
+  font-size: 1em;
+  text-transform: uppercase;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.button_normal {
+  margin: 45px 6px;
+  padding: 22px 163px 14px;
+  border: 6px solid #000;
+  letter-spacing: .02em;
+  background: transparent;
+}
+
+// END button

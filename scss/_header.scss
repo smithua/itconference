@@ -1,0 +1,63 @@
+// HEADER
+
+.header {
+  height: $section-height;
+  min-height: $section-minheight;
+  background: rgb(246,222,1);
+}
+
+.header_left {
+  padding: 107px 107px 0;
+  // float: left;
+  @include fl_left;
+}
+
+.cut_left {
+  z-index: 15;
+  width: 0;
+  height: 0;
+  border-right: 198px solid transparent;
+  border-top: $section-height solid #F6DE01;
+  position: absolute;
+  top: 0;
+  right: 373px;
+}
+
+.header_right {
+  width: 571px;
+  height: $section-height;
+  min-height: $section-minheight;
+  overflow: hidden;
+
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.image_cover {
+  width: 571px;
+  height: $section-height;
+  min-height: $section-minheight;
+  background: rgba(0, 0, 0, 0.8);
+
+  z-index: 9;
+
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.image_pic {
+  width: 727px;
+  height: $section-height;
+  min-height: $section-minheight;
+  background: url(/img/img_top.png) center center/cover no-repeat;
+
+  z-index: 1;
+
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+// END HEADER
