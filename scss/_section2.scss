@@ -1,0 +1,10 @@
+.section_two {
+  width: $full;
+  max-width: $full;
+  @include section-height;
+  background: $color2;
+
+  p {
+    font-family: $light-font, sans-serif;
+  }
+}

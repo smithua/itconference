@@ -1,15 +1,36 @@
 // font-family
 
 @font-face {
-  font-family: $bold-font;
+  font-family: $ublack-font;
   src: url('../font/PFEncoreSansPro-UBlack.otf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: $thin-font;
+  font-family: $bold-font;
+  src: url('../font/PFEncoreSansPro-Bold.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $uthin-font;
   src: url('../font/PFEncoreSansPro-UThin.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $thin-font;
+  src: url('../font/PFEncoreSansPro-Thin.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $thin-italic-font;
+  src: url('../font/PFEncoreSansPro-ThinItalic.otf');
   font-weight: normal;
   font-style: normal;
 }
@@ -22,7 +43,7 @@
 }
 
 @font-face {
-  font-family: $Xthin-font;
+  font-family: $xthin-font;
   src: url('../font/PFEncoreSansPro-XThin.otf');
   font-weight: normal;
   font-style: normal;

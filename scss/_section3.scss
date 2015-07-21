@@ -1,0 +1,5 @@
+.section_three {
+  width: $full;
+  max-width: $full;
+  @include section-height;
+}

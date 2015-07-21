@@ -3,13 +3,12 @@
 .header {
   height: $section-height;
   min-height: $section-minheight;
-  background: rgb(246,222,1);
+  background: $color1;
 }
 
 .header_left {
-  padding: 107px 107px 0;
-  // float: left;
   @include fl_left;
+  padding-top: 107px;
 }
 
 .cut_left {
