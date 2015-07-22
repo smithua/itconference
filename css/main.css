@@ -1,6 +1,9 @@
 *, *:before, *:after {
   box-sizing: border-box; }
 
+* {
+  font-family: "pf thin", sans-serif; }
+
 html {
   color: #000;
   font-size: 16px;
@@ -18,16 +21,14 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 .5em 0;
   padding: 0;
   font-weight: bold;
-  line-height: 1.1; }
+  line-height: 1.1;
+  color: #222222; }
 
 h1 {
   font-family: "pf ultra black", sans-serif; }
 
 h2 {
   font-family: "pf bold", sans-serif; }
-
-* {
-  font-family: "pf thin", sans-serif; }
 
 hr {
   display: block;
@@ -139,6 +140,12 @@ textarea {
   margin-left: 14px;
   color: #666600; }
 
+.fl_left {
+  float: left; }
+
+.fl_right {
+  float: right; }
+
 .button {
   font-family: "pf ultra black";
   display: inline-block;
@@ -191,14 +198,14 @@ body,
   padding-top: 107px; }
 
 .cut_left {
-  z-index: 15;
   width: 0;
   height: 0;
   border-right: 198px solid transparent;
   border-top: 100vh solid #f8de2e;
   position: absolute;
   top: 0;
-  right: 373px; }
+  right: 373px;
+  z-index: 15; }
 
 .header_right {
   width: 571px;
@@ -235,8 +242,61 @@ body,
   height: 100vh;
   min-height: 768px;
   background: #e9e9e9; }
+  .section_two h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: .013em;
+    padding: 141px 0 89px;
+    margin: 0; }
   .section_two p {
-    font-family: "pf light", sans-serif; }
+    font-family: "pf light", sans-serif;
+    font-size: 0.875em;
+    line-height: 1.45;
+    margin: 0.5em 0;
+    color: #444444;
+    letter-spacing: .032em; }
+
+.section_two__container h2 {
+  font-size: 0.875em;
+  margin: 0.3em 0 0.5em;
+  line-height: 1.25;
+  color: #444444;
+  text-transform: uppercase; }
+
+.section_two__row {
+  padding-bottom: 34px; }
+
+.section_two__block {
+  width: 45.5%; }
+
+.section_two-img1 {
+  width: 59px;
+  height: 54px;
+  background: url(../img/section2/comp.png) no-repeat;
+  background: url(../img/section2/comp.svg) no-repeat; }
+
+.section_two-img2 {
+  width: 58px;
+  height: 67px;
+  background: url(../img/section2/brain.png) no-repeat;
+  background: url(../img/section2/brain.svg) no-repeat; }
+
+.section_two-img3 {
+  width: 61px;
+  height: 67px;
+  margin-top: 8px;
+  background: url(../img/section2/cocktail.png) no-repeat;
+  background: url(../img/section2/cocktail.svg) no-repeat; }
+
+.section_two-img4 {
+  width: 52px;
+  height: 57px;
+  background: url(../img/section2/micro.png) no-repeat;
+  background: url(../img/section2/micro.svg) no-repeat; }
+
+.section_two-right {
+  overflow: hidden;
+  padding-left: 25px; }
 
 .section_three {
   width: 100%;

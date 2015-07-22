@@ -4,7 +4,77 @@
   @include section-height;
   background: $color2;
 
+  h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: .013em;
+    padding: 141px 0 89px;
+    margin: 0;
+  }
+
   p {
     font-family: $light-font, sans-serif;
+    font-size: 0.875em;
+    line-height: 1.45;
+    margin: 0.5em 0;
+    color: $color5;
+    letter-spacing: .032em;
   }
+}
+
+.section_two__container {
+
+  h2 {
+    font-size: 0.875em;
+    margin: 0.3em 0 0.5em;
+    line-height: 1.25;
+    color: $color5;
+    text-transform: uppercase;
+  }
+}
+
+.section_two__row {
+  padding-bottom: 34px;
+}
+
+.section_two__block {
+  width: 45.5%;
+}
+
+.section_two-img {
+
+}
+
+.section_two-img1 {
+  width: 59px;
+  height: 54px;
+  background: url(../img/section2/comp.png) no-repeat;
+  background: url(../img/section2/comp.svg) no-repeat;
+}
+
+.section_two-img2 {
+  width: 58px;
+  height: 67px;
+  background: url(../img/section2/brain.png) no-repeat;
+  background: url(../img/section2/brain.svg) no-repeat;
+}
+
+.section_two-img3 {
+  width: 61px;
+  height: 67px;
+  margin-top: 8px;
+  background: url(../img/section2/cocktail.png) no-repeat;
+  background: url(../img/section2/cocktail.svg) no-repeat;
+}
+
+.section_two-img4 {
+  width: 52px;
+  height: 57px;
+  background: url(../img/section2/micro.png) no-repeat;
+  background: url(../img/section2/micro.svg) no-repeat;
+}
+
+.section_two-right {
+  overflow: hidden;
+  padding-left: 25px;
 }

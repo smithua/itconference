@@ -12,7 +12,6 @@
 }
 
 .cut_left {
-  z-index: 15;
   width: 0;
   height: 0;
   border-right: 198px solid transparent;
@@ -20,6 +19,8 @@
   position: absolute;
   top: 0;
   right: 373px;
+
+  z-index: 15;
 }
 
 .header_right {

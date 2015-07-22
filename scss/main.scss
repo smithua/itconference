@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+* {
+  font-family: $thin-font, sans-serif;
+}
+
 html {
   color: #000;
   font-size: 16px;
@@ -27,6 +31,7 @@ h1, h2, h3, h4, h5, h6 {
   // font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
   line-height: 1.1;
+  color: $color4;
 }
 
 h1 {
@@ -35,10 +40,6 @@ h1 {
 
 h2 {
   font-family: $bold-font, sans-serif;
-}
-
-* {
-  font-family: $thin-font, sans-serif;
 }
 
 hr {
@@ -149,6 +150,9 @@ textarea {
 }
 
 // END custom font style
+
+.fl_left { float: left; }
+.fl_right { float: right; }
 
 @import "button";
 
