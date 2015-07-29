@@ -2,53 +2,121 @@
 
 @font-face {
   font-family: $ublack-font;
-  // src: url('../font/PFEncoreSansPro-UBlack.otf');
-  // src: url('../font/PFEncoreSansPro-UBlack.woff');
-  src: url('../font/pfencoresanspro-ublack-webfont.woff2');
+  src: url('../font/old/PFEncoreSansPro-UBlack.otf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: $bold-font;
-  src: url('../font/PFEncoreSansPro-Bold.otf');
+  src: url('../font/old/PFEncoreSansPro-Bold.otf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: $uthin-font;
-  src: url('../font/PFEncoreSansPro-UThin.otf');
+  src: url('../font/old/PFEncoreSansPro-UThin.otf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: $thin-font;
-  src: url('../font/PFEncoreSansPro-Thin.otf');
+  src: url('../font/old/PFEncoreSansPro-Thin.otf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: $thin-italic-font;
-  src: url('../font/PFEncoreSansPro-ThinItalic.otf');
+  src: url('../font/old/PFEncoreSansPro-ThinItalic.otf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: $light-font;
-  src: url('../font/PFEncoreSansPro-Light.otf');
+  src: url('../font/old/PFEncoreSansPro-Light.otf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: $xthin-font;
-  src: url('../font/PFEncoreSansPro-XThin.otf');
+  src: url('../font/old/PFEncoreSansPro-XThin.otf');
   font-weight: normal;
   font-style: normal;
 }
 
 // End font-family
+
+// @font-face {
+//     font-family: $ublack-font;
+//     src: url('../font/pfencoresanspro-ublack-web.eot');
+//     src: url('../font/pfencoresanspro-ublack-web.eot?#iefix') format('embedded-opentype'),
+//          url('../font/pfencoresanspro-ublack-web.woff2') format('woff2'),
+//          url('../font/pfencoresanspro-ublack-web.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: $uthin-font;
+//     src: url('../font/pfencoresanspro-uthin-web.eot');
+//     src: url('../font/pfencoresanspro-uthin-web.eot?#iefix') format('embedded-opentype'),
+//          url('../font/pfencoresanspro-uthin-web.woff2') format('woff2'),
+//          url('../font/pfencoresanspro-uthin-web.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: $xthin-font;
+//     src: url('../font/pfencoresanspro-xthin-web.eot');
+//     src: url('../font/pfencoresanspro-xthin-web.eot?#iefix') format('embedded-opentype'),
+//          url('../font/pfencoresanspro-xthin-web.woff2') format('woff2'),
+//          url('../font/pfencoresanspro-xthin-web.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: $bold-font;
+//     src: url('../font/pfencoresanspro-bold-web.eot');
+//     src: url('../font/pfencoresanspro-bold-web.eot?#iefix') format('embedded-opentype'),
+//          url('../font/pfencoresanspro-bold-web.woff2') format('woff2'),
+//          url('../font/pfencoresanspro-bold-web.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: $light-font;
+//     src: url('../font/pfencoresanspro-light-web.eot');
+//     src: url('../font/pfencoresanspro-light-web.eot?#iefix') format('embedded-opentype'),
+//          url('../font/pfencoresanspro-light-web.woff2') format('woff2'),
+//          url('../font/pfencoresanspro-light-web.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: $thin-font;
+//     src: url('../font/pfencoresanspro-thin-web.eot');
+//     src: url('../font/pfencoresanspro-thin-web.eot?#iefix') format('embedded-opentype'),
+//          url('../font/pfencoresanspro-thin-web.woff2') format('woff2'),
+//          url('../font/pfencoresanspro-thin-web.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: $thin-italic-font;
+//     src: url('../font/pfencoresanspro-thinitalic-web.eot');
+//     src: url('../font/pfencoresanspro-thinitalic-web.eot?#iefix') format('embedded-opentype'),
+//          url('../font/pfencoresanspro-thinitalic-web.woff2') format('woff2'),
+//          url('../font/pfencoresanspro-thinitalic-web.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }

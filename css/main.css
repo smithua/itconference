@@ -1,13 +1,11 @@
 *, *:before, *:after {
   box-sizing: border-box; }
 
-* {
-  font-family: "pf thin", sans-serif; }
-
 html {
-  color: #000;
+  font-family: "pf thin", sans-serif;
   font-size: 16px;
-  line-height: 1.4; }
+  line-height: 1.4;
+  color: #000; }
 
 ::-moz-selection {
   background: #b3d4fc;
@@ -62,37 +60,37 @@ textarea {
 
 @font-face {
   font-family: "pf ultra black";
-  src: url("../font/pfencoresanspro-ublack-webfont.woff2");
+  src: url("../font/old/PFEncoreSansPro-UBlack.otf");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: "pf bold";
-  src: url("../font/PFEncoreSansPro-Bold.otf");
+  src: url("../font/old/PFEncoreSansPro-Bold.otf");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: "pf ultra thin";
-  src: url("../font/PFEncoreSansPro-UThin.otf");
+  src: url("../font/old/PFEncoreSansPro-UThin.otf");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: "pf thin";
-  src: url("../font/PFEncoreSansPro-Thin.otf");
+  src: url("../font/old/PFEncoreSansPro-Thin.otf");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: "pf thin italic";
-  src: url("../font/PFEncoreSansPro-ThinItalic.otf");
+  src: url("../font/old/PFEncoreSansPro-ThinItalic.otf");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: "pf light";
-  src: url("../font/PFEncoreSansPro-Light.otf");
+  src: url("../font/old/PFEncoreSansPro-Light.otf");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: "pf extra thin";
-  src: url("../font/PFEncoreSansPro-XThin.otf");
+  src: url("../font/old/PFEncoreSansPro-XThin.otf");
   font-weight: normal;
   font-style: normal; }
 .ubold {
