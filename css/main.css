@@ -300,7 +300,43 @@ body,
   width: 100%;
   max-width: 100%;
   height: 100vh;
-  min-height: 768px; }
+  min-height: 768px;
+  background: #f8de2e; }
+
+.sidebar {
+  width: 400px;
+  float: left; }
+  .sidebar .title {
+    font-family: "pf ultra black";
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+    color: #333333;
+    padding-top: 76px; }
+
+.nav-body {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px; }
+
+.nav-link {
+  width: 195px;
+  display: block;
+  padding: 40px 0 13px;
+  line-height: 1.125em;
+  border-bottom: 5px solid #333333;
+  font-family: "pf bold";
+  font-size: .875em;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #333333;
+  text-decoration: none;
+  transition: .2s ease; }
+  .nav-link:hover {
+    padding-left: 10px;
+    color: #ffffff;
+    background: #333333; }
 
 .hidden {
   display: none !important;

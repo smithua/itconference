@@ -2,4 +2,60 @@
   width: $full;
   max-width: $full;
   @include section-height;
+
+  background: $color1;
+}
+
+.sidebar {
+    width: 400px;
+    float: left;
+
+
+    .title {
+        font-family: $ublack-font;
+        font-size: 3em;
+        text-transform: uppercase;
+        letter-spacing: 0.01em;
+        color: $color13;
+
+        padding-top: 76px;
+        // padding-bottom: 0px;
+    }
+}
+
+
+.nav-body {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    margin-bottom: 50px;
+}
+
+.nav-li {
+
+}
+
+.nav-link {
+    width: 195px;
+    display: block;
+    padding: 40px 0 13px;
+    line-height: 1.125em;
+    border-bottom: 5px solid $color13;
+
+    font-family: $bold-font;
+    font-size: .875em;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: $color13;
+
+    text-decoration: none;
+
+    transition: .2s ease;
+
+    &:hover {
+        padding-left: 10px;
+        color: $color6;
+        background: $color13;
+    }
 }
