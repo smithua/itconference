@@ -1,9 +1,9 @@
 // HEADER
 
 .header {
-  height: $section-height;
-  min-height: $section-minheight;
+  @include section-height;
   background: $color1;
+  position: relative;
 }
 
 .header_left {
