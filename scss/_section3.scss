@@ -9,8 +9,9 @@
 }
 
 .sidebar {
-    width: 400px;
+    width: 320px;
     float: left;
+    position: relative;
 
 
     .title {
@@ -18,25 +19,13 @@
         font-size: 3em;
         text-transform: uppercase;
         letter-spacing: 0.01em;
-        color: $color13;
+        color: $color4;
 
         padding-top: 76px;
         // padding-bottom: 0px;
     }
 
-    .cut_left2 {
-      width: 0;
-      height: 0;
-      border-right: 198px solid transparent;
-      border-top: $section-height solid red;
-      position: absolute;
-      top: 0;
-      right: 373px;
-
-      z-index: 15;
-    }
 }
-
 
 .nav-body {
     list-style: none;
@@ -55,21 +44,62 @@
     display: block;
     padding: 40px 0 13px;
     line-height: 1.125em;
-    border-bottom: 5px solid $color13;
+    border-bottom: 5px solid $color4;
 
     font-family: $bold-font;
     font-size: .875em;
     font-weight: normal;
     text-transform: uppercase;
-    color: $color13;
+    color: $color4;
 
     text-decoration: none;
 
     transition: .2s ease;
 
-    &:hover {
+    &:hover, &.active {
         padding-left: 10px;
         color: $color6;
-        background: $color13;
+        background: $color4;
     }
+}
+
+$content_block-width: 920px;
+
+.content_block {
+    width: $content_block-width;
+    height: 100vh;
+    min-height: 768px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.section_three-content-img {
+    width: $content_block-width;
+    height: $section-height;
+    min-height: $section-minheight;
+
+    z-index: 1;
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+// .cut_left2 {
+
+// }
+
+.cut_left2 {
+  width: 0;
+  height: 0;
+  border-right: 198px solid transparent;
+  border-top: $section-height solid $color1;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0px;
+
+  z-index: 15;
 }
